@@ -30,7 +30,13 @@ body .fc {
   /* default look for non-business-hours areas */
   /* will inherit .fc-bgevent's styles */
   background: #d7d7d7; }
+  
+.fc-day-header.fc-widget-header.fc-sat span{ color:#0000FF; } 
+.fc-day-header.fc-widget-header.fc-sun span{ color:#FF0000; }
 
+.fc-day-top.fc-sat .fc-day-number { color:#0000FF; }     /* 토요일 */
+.fc-day-top.fc-sun .fc-day-number  { color:#FF0000; }    /* 일요일 */
+  
 /* Buttons (styled <button> tags, normalized to work cross-browser)
 --------------------------------------------------------------------------------------------------*/
 .fc button {
